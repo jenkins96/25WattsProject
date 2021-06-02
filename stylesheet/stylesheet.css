@@ -6,22 +6,40 @@ html{
 }
 body{
 	
-	background-image: url("https://images.unsplash.com/photo-1598524898412-d66b744c7f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
-	background-position: center; /* Center the image */
-  	background-repeat: no-repeat; /* Do not repeat the image */
-  	background-size: cover; /* Resize the background image to cover the entire container */
+	background: url("https://images.unsplash.com/photo-1598524898412-d66b744c7f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80") no-repeat center;
+	background-size: cover; /* Resize the background image to cover the entire container */
   	height: 100vh;
 }
-nav  ul li{
-	display: inline;
+header#mainHeader h1 a, header#mainHeader nav ul li a{
+    text-decoration: none;
+    color: white;
 }
-nav{
-	display: flex;
-	justify-content: space-between;
-	border-bottom: 2px solid orange;
+header#mainHeader h1 a:hover, header#mainHeader nav ul li a:hover{
+      color: orange;
+}
+header#mainHeader{
+    color: white;
+    border-bottom: 2px solid orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header#mainHeader h1{
+    display: inline;
+    margin-left: 5%;
+}
+
+header#mainHeader nav ul > li{
+    display: inline;
+    margin-right: 1.5rem;
+}
+header#mainHeader nav ul:last-child{
+    margin-right: 3rem;
+}
+header#mainHeader nav{
+	display: inline-block;
 	color: white;
-	margin-left: 30px;
-	margin-right: 30px;
+	
 }
 main{
 	margin-left: 4em;
@@ -37,6 +55,9 @@ main p {
 main button{
 	border-radius: 20px;
 	background-color: orange;
-	padding: 1em;
-	color: white;
+	padding: 1rem;
+    color: white;
+    border:none;
+    width: 8rem;
+
 }

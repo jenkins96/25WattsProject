@@ -5,59 +5,147 @@ html{
     box-sizing: inherit;
 }
 body{
-	
-	background: url("https://images.unsplash.com/photo-1598524898412-d66b744c7f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80") no-repeat center;
+	background: url("../images/slider-1.png") no-repeat center;
 	background-size: cover; /* Resize the background image to cover the entire container */
-  	height: 100vh;
+    width: 1366px;
+    height: 768px;
 }
-header#mainHeader h1 a, header#mainHeader nav ul li a{
+#mainHeader{
+    width: 1366px;
+    height: 96px;
+    opacity: 1;
+    border-bottom: 2px solid orange;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+#mainHeader figure{
+    top: 33px;
+    left: 100px;
+    width: 129px;
+    height: 30px;
+    opacity: 1;
+}
+
+#mainHeader nav ul > li{
+    
+    display: inline-block;
+    width: 75px;
+    height: 96px;
+   
+    
+}
+#mainHeader nav ul li > a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    
+    width: 42px;
+    height: 21px;
+    color: white;
+    text-decoration: none;
+}
+/*
+header##section1Header h1 a, header##section1Header nav ul li a{
     text-decoration: none;
     color: white;
 }
-header#mainHeader h1 a:hover, header#mainHeader nav ul li a:hover{
+header##section1Header h1 a:hover, header##section1Header nav ul li a:hover{
       color: orange;
 }
-header#mainHeader{
+header##section1Header{
     color: white;
     border-bottom: 2px solid orange;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header#mainHeader h1{
+header##section1Header h1{
     display: inline;
     margin-left: 5%;
 }
 
-header#mainHeader nav ul > li{
+header##section1Header nav ul > li{
     display: inline;
     margin-right: 1.5rem;
 }
-header#mainHeader nav ul:last-child{
+header##section1Header nav ul:last-child{
     margin-right: 3rem;
 }
-header#mainHeader nav{
+header##section1Header nav{
 	display: inline-block;
 	color: white;
 	
 }
-main{
+*/
+#section1{
 	margin-left: 4em;
 	margin-top: 6em;
 	color: white;
 }
-main header h2{
-	font-size: 3rem;
+#section1 header div h2{
+    top: 254px;
+    left: 101px;
+    width: 554px;
+    height: 115px;
+    
 }
-main p {
-	font-size: 1.5rem;
+#section1 header div h2{
+    font-size: 48px;
+    opacity: 1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
-main button{
+#section1 p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+#section1 button{
 	border-radius: 20px;
 	background-color: orange;
-	padding: 1rem;
-    color: white;
+	color: white;
     border:none;
-    width: 8rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    top: 480px;
+    left: 101px;
+    width: 144px;
+    height: 48px;
 
 }
+#section2{
+    position: absolute;
+    top: 768px;
+    left: 0px;
+    width: 1366px;
+    height: 672px;
+}
+#section3{
+    position: absolute;
+    top: 1440px;
+    left: 0px;
+    width: 1366px;
+    height: 768px;
+    background-color: #F2F4F1;
+}
+#section4{
+    position: absolute;
+    top: 2208px;
+    left: 0px;
+    width: 1366px;
+    height: 768px;
+}
+#section5{
+    position: absolute;
+    top: 2976px;
+    left: 0px;
+    width: 1366px;
+    height: 768px;
+    background-color: #F2F4F1;
+}
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/

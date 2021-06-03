@@ -10,6 +10,70 @@ body{
     width: 1366px;
     height: 768px;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 1366px
+}
+nav header{
+     padding-top: 3%;
+     margin-left: 2.8rem;
+}
+nav ul{
+     padding-top: 3%;
+}
+nav ul > li{
+    display: inline;
+    margin-right: 2.8rem;
+
+}
+nav ul li > a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+hr{
+    color: #E0752F;
+    border: 0; 
+    border-top: 2px solid #E0752F;
+    width: 100vw;
+}
+#section1{
+    margin-left: 4em;
+    margin-top: 6em;
+    color: white;
+}
+#section1 header div h2{
+    
+    font-size: 48px;
+    opacity: 1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    
+}
+#section1 p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 1% 0 1% 0;
+}
+#section1 button{
+    border-radius: 20px;
+    background-color: #E0752F;
+    color: white;
+    border:none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 144px;
+    height: 48px;
+
+
+}
+
+/*
 #mainHeader{
     width: 1366px;
     height: 96px;
@@ -47,7 +111,7 @@ body{
     color: white;
     text-decoration: none;
 }
-/*
+
 header##section1Header h1 a, header##section1Header nav ul li a{
     text-decoration: none;
     color: white;
@@ -79,7 +143,7 @@ header##section1Header nav{
 	color: white;
 	
 }
-*/
+
 #section1{
 	margin-left: 4em;
 	margin-top: 6em;
@@ -145,7 +209,7 @@ header##section1Header nav{
     height: 768px;
     background-color: #F2F4F1;
 }
-/*
+
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
